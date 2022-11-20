@@ -1,9 +1,10 @@
 # Curso JavaScript Origamid
 
- - Lista de Arquivos do curso de JavaScript da **Origamid**
+ - Lista de Exercícios do curso de JavaScript da **Origamid**
 
-```js 
-var adicionar2 = function(numero) {
- return numero + 2;
-}
-```
+- [x] **Variáveis**
+- [x] **Operadores**
+- [ ] **Funções**
+  - [ ] **F1**
+- [ ] **Métodos**
+- [ ] **Objetos**
