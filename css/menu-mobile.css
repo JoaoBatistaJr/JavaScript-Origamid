@@ -23,7 +23,7 @@
   .js [data-menu="button"]::before {
     margin-right: 4px;
     content: '';
-    display: inline-block;
+  display: inline-block;
     height: 2px;
     width: 12px;
     background: #fff;
