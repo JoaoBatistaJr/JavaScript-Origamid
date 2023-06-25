@@ -6,14 +6,14 @@ module.exports = {
     path: path.resolve(__dirname, './'),
     filename: 'main.js',
   },
-  module:{
-    rules:[
+  module: {
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use:{
+        use: {
           loader: 'babel-loader',
-          options:{
+          options: {
             presets: ['@babel/preset-env'],
             plugins: ['@babel/plugin-transform-runtime'],
           },

@@ -5,8 +5,9 @@ export default class MenuMobile {
     this.menuButton = document.querySelector(menuButton);
     this.menuList = document.querySelector(menuList);
     this.activeClass = 'active';
-    // Define touchstart e click como argumento padrão
-    // de eventos caso o usuário não defina
+
+    // define touchstart e click como argumento padrão
+    // de events caso o usuário não define
     if (events === undefined) this.events = ['touchstart', 'click'];
     else this.events = events;
 
@@ -23,7 +24,7 @@ export default class MenuMobile {
   }
 
   addMenuMobileEvents() {
-    this.events.forEach((evento) => this.menuButton.addEventListener(evento, this.openMenu));
+    this.events.forEach(evento => this.menuButton.addEventListener(evento, this.openMenu));
   }
 
   init() {
